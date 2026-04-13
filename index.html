@@ -29,7 +29,7 @@
       justify-content: center;
       align-items: center;
       min-height: 100vh;
-      padding: 2.5rem 0;
+      padding-block: 2.5rem;
     }
 
     .card {
@@ -55,19 +55,19 @@
       letter-spacing: 0.3125rem;
       text-transform: uppercase;
       color: hsl(228, 12%, 48%);
-      margin-bottom: 0.625rem;
+      margin-block-end: 0.625rem;
     }
 
     .card__content__subhead {
       font-family: "Fraunces", serif;
       font-size: 1.5rem;
-      margin-bottom: 0.9375rem;
+      margin-block-end: 0.9375rem;
     }
 
     .card__content__description {
       font-size: 0.875rem;
       color: hsl(228, 12%, 48%);
-      margin-bottom: 1.25rem;
+      margin-block-end: 1.25rem;
       line-height: 1.5;
     }
 
@@ -75,7 +75,7 @@
       display: flex;
       align-items: center;
       gap: 1.25rem;
-      margin-bottom: 1.25rem;
+      margin-block-end: 1.25rem;
     }
 
     .card__content__price__current {
@@ -106,13 +106,14 @@
       align-items: center;
     }
 
+    .card__content__add-to-cart:hover {
+      background-color: hsl(158, 36%, 30%);
+    }
+
     .card__content__add-to-cart img {
       margin-inline-end: 0.625rem;
     }
 
-    .card__content__add-to-cart:hover {
-      background-color: hsl(158, 36%, 30%);
-    }
 
 
 
